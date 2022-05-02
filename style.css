@@ -1,5 +1,6 @@
 body {
-	/*background-color: grey;*/
+	background: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 0));
+	padding-bottom: 50px;
 }
 
 .container {
@@ -9,10 +10,14 @@ body {
 }
 
 h1 {
+	margin-left: 300px;
+	margin-right: 300px;
 	font-family: fantasy;
-	font-size: 3em;
+	font-size: 3.5em;
 	text-align: center;
-	/*border-bottom: solid 2px black;*/
+	border-bottom: 8px solid white;
+
+	-webkit-text-fill-color: white; 
 }
 
 img {
